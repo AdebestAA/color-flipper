@@ -1,0 +1,60 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   main {
+       background-color: black;
+       color: white;
+       margin-top: 18rem;
+       padding: 2rem;
+       font-size: 3rem;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+   }
+
+   button {
+       background-color: transparent;
+       padding: 20px;
+       margin-top: 20px;
+       border-radius: 10px;
+       border: none;
+       cursor: pointer;
+       box-shadow: 0px 0px 10px 3px grey;
+       font-size: 1.4rem;
+   }
+
+   header {
+       background-color: white;
+       box-shadow: 0px 1px 5px 1px grey;
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       font-size: 1.2rem;
+       padding: 10px;
+   }
+
+   header a {
+       color: black;
+       text-decoration: none;
+       margin-inline: 10px;
+       font-size: 1.3rem;
+       cursor: pointer;
+   }
+
+   header a:focus {
+       color: grey;
+   }
+
+   button:focus {
+       outline: 4px solid blue;
+   }
